@@ -3,7 +3,7 @@ var attrCopyTo = require(__dirname+'/lib/actions/attributes/copy_to.js');
 var attrRemove = require(__dirname+'/lib/actions/attributes/remove.js');
 var pipePublishTo = require(__dirname+'/lib/actions/pipes/publishTo.js');
 
-console.log(attrCopyTo);
+/*console.log(attrCopyTo);
 
 function logger(ctx, cbs){
     console.log(ctx);
@@ -42,5 +42,5 @@ nextPipe.use('logger_formatted');
 fPipes.pipes.register('nextPipe', nextPipe);
 fPipes.pipes.register('mine', myPipe);
 fPipes.pipes.publish('mine', {id:'marsattack'});
-
+*/
 module.exports = fPipes;
