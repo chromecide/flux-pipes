@@ -9,7 +9,13 @@
     "Logic Manager"
   ],
   "dependencies": {
-    "flux-data": "chromecide/flux-data",
-    "flux-data-mysql": "chromecide/flux-data-mysql"
+  },
+  "flux-pipes":{
+    "name": "flux-pipes Core",
+    "actions":[
+      {
+        "name": "CTX:ToConsole"
+      }
+    ]
   }
 }
